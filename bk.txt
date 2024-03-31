@@ -16,7 +16,7 @@ client.once('ready', () => {
   console.log(`${client.user.tag} đã sẵn sàng!`);
   client.user.setPresence({
     status: "idle",
-    activities: [{ name: "Gì Đố Biết", type: ActivityType.Playing }]
+    activities: [{ name: "Mé hosting bot sập hoài", type: ActivityType.Custom }]
   });
 });
 
@@ -145,4 +145,4 @@ function getPlayer(guildId) {
   return connection ? connection.state.subscription.player : null;
 }
 
-client.login('MTIwMzA5NTQ2MDQzNzMwMzM2OA.GhW8UR.sFXvsmFHkz-nVaWaCXwT3z8YB2hgUheCRD3tOI'); // Thay thế 'YOUR_BOT_TOKEN' bằng token thực của bot
+client.login('MTIwMzA5NTQ2MDQzNzMwMzM2OA.Gjg3ju.uP5Yvw8MPepnR-8WC1p5Sj7FivtT1kvp7CDGAs'); // Thay thế 'YOUR_BOT_TOKEN' bằng token thực của bot
